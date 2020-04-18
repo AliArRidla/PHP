@@ -14,8 +14,8 @@
         "Nick" => "24",
         "Olaf" => "9",
         "Ana" => "17",
-    )
-    asort($age);
+    );
+    ksort($age);
 
     foreach($age as $name => $value){
         echo "name = " . $name . ", agr = " . $value . "<br>";
